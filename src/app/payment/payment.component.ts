@@ -7,10 +7,10 @@ export interface ICommonProduct {
 }
 
 @Component({
-    selector: 'app-payment',
-    templateUrl: './payment.component.html',
-    styleUrls: ['./payment.component.scss'],
-    imports: [CommonModule]
+  selector: 'app-payment',
+  templateUrl: './payment.component.html',
+  styleUrls: ['./payment.component.scss'],
+  imports: [CommonModule],
 })
 export class PaymentComponent implements OnInit {
   constructor() {}
