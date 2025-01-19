@@ -68,11 +68,11 @@
 					"builder": "ngx-build-plus:dev-server",
 					"configurations": {
 						"production": {
-							"browserTarget": "mf-payment:build:production",
+							"buildTarget": "mf-payment:build:production",
 							"extraWebpackConfig": "webpack.prod.config.js"
 						},
 						"development": {
-							"browserTarget": "mf-payment:build:development"
+							"buildTarget": "mf-payment:build:development"
 						}
 					},
 					"defaultConfiguration": "development",
@@ -85,7 +85,7 @@
 				"extract-i18n": {
 					"builder": "ngx-build-plus:extract-i18n",
 					"options": {
-						"browserTarget": "mf-payment:build",
+						"buildTarget": "mf-payment:build",
 						"extraWebpackConfig": "webpack.config.js"
 					}
 				},
